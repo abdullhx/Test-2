@@ -1,15 +1,15 @@
 -- تحميل WindUI
-local WindUI = loadstring(game:HttpGet("LINK/WindUI.lua"))()
+local WindUI = loadstring(game:HttpGet('https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/main_example.lua'))()
 
 -- تحميل الواجهة
-local WindowUI = loadstring(game:HttpGet("LINK/UI/Window.lua"))()
+local WindowUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/abdullhx/Test-2/refs/heads/main/UI/Window.lua"))()
 local Tabs = WindowUI.Create(WindUI)
 
 -- تحميل العناصر
-local ToggleData   = loadstring(game:HttpGet("LINK/Elements/Toggle.lua"))()
-local CheckboxData = loadstring(game:HttpGet("LINK/Elements/Checkbox.lua"))()
-local SliderData   = loadstring(game:HttpGet("LINK/Elements/Slider.lua"))()
-local DropdownData = loadstring(game:HttpGet("LINK/Elements/Dropdown.lua"))()
+local ToggleData   = loadstring(game:HttpGet("https://raw.githubusercontent.com/abdullhx/Test-2/refs/heads/main/Elements/Toggle.lua"))()
+local CheckboxData = loadstring(game:HttpGet("https://raw.githubusercontent.com/abdullhx/Test-2/refs/heads/main/Elements/Checkbox.lua"))()
+local SliderData   = loadstring(game:HttpGet("https://raw.githubusercontent.com/abdullhx/Test-2/refs/heads/main/Elements/Slider.lua"))()
+local DropdownData = loadstring(game:HttpGet("https://raw.githubusercontent.com/abdullhx/Test-2/refs/heads/main/Elements/Dropdown.lua"))()
 
 -- الواجهة الأولى
 Tabs.Tab1:AddToggle(ToggleData)
