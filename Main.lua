@@ -1,5 +1,5 @@
 -- تحميل WindUI
-local WindUI = loadstring(game:HttpGet('https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/main_example.lua'))()
+local WindUI = loadstring(game:HttpGet('https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/main.lua'))()
 
 -- تحميل الواجهة
 local WindowUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/abdullhx/Test-2/refs/heads/main/UI/Window.lua"))()
