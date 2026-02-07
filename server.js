@@ -5,7 +5,7 @@ const fetch = (...args) =>
 const app = express();
 app.use(express.json());
 
-const OPENAI_KEY = "PUT_YOUR_OPENAI_KEY_HERE";
+const OPENAI_KEY = "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";
 
 app.post("/chat", async (req, res) => {
   try {
